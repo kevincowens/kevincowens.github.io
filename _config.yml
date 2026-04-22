@@ -1,1 +1,17 @@
+title: "Kevin C. Owens"
+description: "Tech, code, AI, and homelab experiments"
+url: "https://kevincowens.github.io"
+baseurl: ""
 
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
