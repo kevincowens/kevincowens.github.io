@@ -1,5 +1,5 @@
 ---
-title: "Kevin C. Owens — Tech, Code, AI"
+title: "Portfolio Homepage"
 author: "Kevin C. Owens"
 ---
 
