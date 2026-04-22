@@ -72,5 +72,4 @@ A multi‑agent pipeline that gathers sources, summarizes them, and formats them
 ## 📫 Connect With Me
 
 - **GitHub:** [github.com/kevincowens](https://github.com/kevincowens)
-- **LinkedIn:** *(add link when ready)*
-- **Email:** *(optional)*
+- **LinkedIn:** [LinkedIn - Kevin C. Owens](https://www.linkedin.com/in/kevincowens)
