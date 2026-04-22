@@ -1,1 +1,216 @@
+/* ================================
+   MONOKAI PRO THEME — kevincowens.dev
+   ================================ */
 
+/* ----- Core Colors (Monokai Pro) ----- */
+:root {
+  --mono-bg: #2d2a2e;
+  --mono-surface: #3b383e;
+  --mono-border: #4a474d;
+
+  --mono-fg: #fcfcfa;
+  --mono-subtle: #939293;
+
+  --mono-green: #a9dc76;
+  --mono-yellow: #ffd866;
+  --mono-orange: #fc9867;
+  --mono-pink: #ff6188;
+  --mono-purple: #ab9df2;
+  --mono-cyan: #78dce8;
+}
+
+/* ----- Global Reset ----- */
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--mono-bg);
+  color: var(--mono-fg);
+  font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--mono-green);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+a:hover {
+  color: var(--mono-yellow);
+}
+
+/* ----- Layout ----- */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+/* ----- Headings ----- */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--mono-yellow);
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: var(--mono-pink);
+}
+
+h2 {
+  font-size: 1.9rem;
+  color: var(--mono-orange);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--mono-green);
+}
+
+/* ----- Paragraphs & Lists ----- */
+p, li {
+  font-size: 1.05rem;
+  color: var(--mono-fg);
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+/* ----- Code Blocks ----- */
+pre, code {
+  background: var(--mono-surface);
+  color: var(--mono-green);
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.95rem;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border: 1px solid var(--mono-border);
+}
+
+/* ----- Navigation Bar ----- */
+nav {
+  background: var(--mono-surface);
+  border-bottom: 2px solid var(--mono-border);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .nav-left a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--mono-green);
+}
+
+nav .nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav .nav-links a {
+  color: var(--mono-fg);
+  font-size: 1.05rem;
+}
+
+nav .nav-links a:hover {
+  color: var(--mono-yellow);
+}
+
+/* ----- Dropdown Menu ----- */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  cursor: pointer;
+  color: var(--mono-fg);
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.dropdown-btn:hover {
+  background: var(--mono-border);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: var(--mono-surface);
+  border: 1px solid var(--mono-border);
+  min-width: 200px;
+  z-index: 10;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: var(--mono-fg);
+}
+
+.dropdown-content a:hover {
+  background: var(--mono-border);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ----- Buttons ----- */
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  background: var(--mono-purple);
+  color: var(--mono-bg);
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: var(--mono-pink);
+  color: var(--mono-bg);
+}
+
+/* ----- Blog Listing ----- */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--mono-border);
+}
+
+.post-list a {
+  font-size: 1.2rem;
+  color: var(--mono-green);
+}
+
+.post-list a:hover {
+  color: var(--mono-yellow);
+}
+
+/* ----- Footer ----- */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  color: var(--mono-subtle);
+  border-top: 1px solid var(--mono-border);
+}
