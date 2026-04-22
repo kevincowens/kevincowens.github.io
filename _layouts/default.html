@@ -29,7 +29,10 @@
 
     <script>
     fetch("https://api.github.com/users/kevincowens/repos")
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error("GitHub API error: " + res.status);
+        return res.json();
+      })
       .then(data => {
         const menu = document.getElementById("repo-dropdown");
         data
@@ -40,6 +43,14 @@
             item.textContent = repo.name;
             menu.appendChild(item);
           });
+      })
+      .catch(() => {
+        const menu = document.getElementById("repo-dropdown");
+        const msg = document.createElement("span");
+        msg.textContent = "Repos unavailable";
+        msg.style.padding = "0.6rem 1rem";
+        msg.style.display = "block";
+        menu.appendChild(msg);
       });
     </script>
 
