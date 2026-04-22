@@ -3,74 +3,74 @@ title: "Kevin C. Owens — Tech, Code, AI"
 author: "Kevin C. Owens"
 ---
 
-<h1>👋 Hi, I'm Kevin</h1>
-<p><strong>Cybersecurity | AI | Homelab Automation | USAF First Sergeant</strong></p>
+# 👋 Hi, I'm Kevin
 
-<p>
-  I build secure, modular systems that blend <strong>AI</strong>, <strong>automation</strong>, and
-  <strong>real‑world operations</strong>. This site documents my learning path, projects, and
-  experiments as I transition from a 20‑year Air Force career into full‑time tech.
-</p>
+**Cybersecurity | AI | Homelab Automation | USAF First Sergeant**
 
-<hr>
+I build secure, modular systems that blend **AI**, **automation**, and **real‑world operations**.
+This site documents my learning path, projects, and experiments as I transition from a 20‑year Air Force career into full‑time tech.
 
-<h2>🚀 What I'm Working On</h2>
+---
 
-<h3>AI‑Driven Homelab Architecture</h3>
-<p>Building a modular, agentic system using:</p>
-<ul>
-  <li>Ollama</li>
-  <li>n8n</li>
-  <li>GitHub Copilot</li>
-  <li>Local LLM workflows</li>
-  <li>Zero‑Trust principles</li>
-</ul>
+## 🚀 What I'm Working On
 
-<h3>Cybersecurity Technology Degree</h3>
-<p>Currently completing my <strong>B.S. in Cybersecurity Technology</strong>, focusing on:</p>
-<ul>
-  <li>Network defense</li>
-  <li>Secure automation</li>
-  <li>AI‑augmented SOC workflows</li>
-</ul>
+### AI‑Driven Homelab Architecture
 
-<h3>Learning Path</h3>
-<p>My current focus areas:</p>
-<ul>
-  <li>Multi‑agent architectures</li>
-  <li>Local inference optimization</li>
-  <li>Secure container orchestration</li>
-  <li>Markdown‑first documentation workflows</li>
-</ul>
+Building a modular, agentic system using:
 
-<hr>
+- Ollama
+- n8n
+- GitHub Copilot
+- Local LLM workflows
+- Zero‑Trust principles
 
-<h2>📝 Latest Blog Posts</h2>
-<ul>
-  <li><strong><a href="/blog/building-local-ai-workflow/">Building My Local AI Workflow</a></strong> — April 10, 2026</li>
-  <li><strong><a href="/blog/zero-trust-for-the-homelab/">Zero‑Trust for the Homelab</a></strong> — April 15, 2026</li>
-  <li><strong><a href="/blog/deploying-n8n-with-secure-boundaries/">Deploying n8n with Secure Boundaries</a></strong> — April 20, 2026</li>
-</ul>
-<p><a href="/blog/">→ All posts</a></p>
+### Cybersecurity Technology Degree
 
-<hr>
+Currently completing my **B.S. in Cybersecurity Technology**, focusing on:
 
-<h2>🧰 Featured Projects</h2>
+- Network defense
+- Secure automation
+- AI‑augmented SOC workflows
 
-<h3>Agentic Homelab</h3>
-<p>A fully modular, self‑maintaining system with strict tool boundaries and local LLMs.</p>
+### Learning Path
 
-<h3>System Status Page</h3>
-<p>A Markdown‑driven, always‑current snapshot of my homelab for agent handoff.</p>
+My current focus areas:
 
-<h3>AI‑Enhanced Research Workflow</h3>
-<p>A multi‑agent pipeline that gathers sources, summarizes them, and formats them into Markdown with citations.</p>
+- Multi‑agent architectures
+- Local inference optimization
+- Secure container orchestration
+- Markdown‑first documentation workflows
 
-<hr>
+---
 
-<h2>📫 Connect With Me</h2>
-<ul>
-  <li><strong>GitHub:</strong> <a href="https://github.com/kevincowens">github.com/kevincowens</a></li>
-  <li><strong>LinkedIn:</strong> <em>(add link when ready)</em></li>
-  <li><strong>Email:</strong> <em>(optional)</em></li>
-</ul>
+## 📝 Latest Blog Posts
+
+- **[Building My Local AI Workflow](/blog/building-local-ai-workflow/)** — April 10, 2026
+- **[Zero‑Trust for the Homelab](/blog/zero-trust-for-the-homelab/)** — April 15, 2026
+- **[Deploying n8n with Secure Boundaries](/blog/deploying-n8n-with-secure-boundaries/)** — April 20, 2026
+
+[→ All posts](/blog/)
+
+---
+
+## 🧰 Featured Projects
+
+### Agentic Homelab
+
+A fully modular, self‑maintaining system with strict tool boundaries and local LLMs.
+
+### System Status Page
+
+A Markdown‑driven, always‑current snapshot of my homelab for agent handoff.
+
+### AI‑Enhanced Research Workflow
+
+A multi‑agent pipeline that gathers sources, summarizes them, and formats them into Markdown with citations.
+
+---
+
+## 📫 Connect With Me
+
+- **GitHub:** [github.com/kevincowens](https://github.com/kevincowens)
+- **LinkedIn:** *(add link when ready)*
+- **Email:** *(optional)*
