@@ -3,27 +3,6 @@ title: "Kevin C. Owens — Tech, Code, AI"
 author: "Kevin C. Owens"
 ---
 
-<!-- Navigation Bar -->
-<nav>
-  <div class="nav-left">
-    <a href="/">kevincowens.dev</a>
-  </div>
-
-  <div class="nav-links">
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
-
-    <div class="dropdown">
-      <span class="dropdown-btn">GitHub Repos ▾</span>
-      <div class="dropdown-content" id="repo-dropdown">
-        <!-- Filled dynamically by JS -->
-      </div>
-    </div>
-  </div>
-</nav>
-
-<main>
-
 # 👋 Hi, I'm Kevin  
 **Cybersecurity | AI | Homelab Automation | USAF First Sergeant**
 
@@ -58,13 +37,12 @@ My current focus areas:
 ---
 
 ## 📝 Latest Blog Posts
-A few highlights from my writing:
 
-- **[Building My Local AI Workflow](/blog/posts/)**  
-- **[Zero‑Trust for the Homelab](/blog/posts/)**  
-- **[Deploying n8n with Secure Boundaries](/blog/posts/)**  
+- **[Building My Local AI Workflow](/blog/building-local-ai-workflow/)** — April 10, 2026  
+- **[Zero‑Trust for the Homelab](/blog/zero-trust-for-the-homelab/)** — April 15, 2026  
+- **[Deploying n8n with Secure Boundaries](/blog/deploying-n8n-with-secure-boundaries/)** — April 20, 2026  
 
-*(This list will auto‑populate once you add posts.)*
+[→ All posts](/blog/)
 
 ---
 
@@ -84,27 +62,4 @@ A multi‑agent pipeline that gathers sources, summarizes them, and formats them
 ## 📫 Connect With Me
 - **GitHub:** [github.com/kevincowens](https://github.com/kevincowens)  
 - **LinkedIn:** *(add link when ready)*  
-- **Email:** *(optional)*  
-
-</main>
-
-<footer>
-  © 2026 Kevin C. Owens — Built with Markdown + Monokai Pro
-</footer>
-
-<!-- GitHub Repo Dropdown Script -->
-<script>
-fetch("https://api.github.com/users/kevincowens/repos")
-  .then(res => res.json())
-  .then(data => {
-    const menu = document.getElementById("repo-dropdown");
-    data
-      .sort((a, b) => a.name.localeCompare(b.name))
-      .forEach(repo => {
-        const item = document.createElement("a");
-        item.href = repo.html_url;
-        item.textContent = repo.name;
-        menu.appendChild(item);
-      });
-  });
-</script>
+- **Email:** *(optional)*
