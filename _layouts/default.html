@@ -2,6 +2,57 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    {{ content }}
+
+    <nav>
+      <div class="nav-left">
+        <a href="/">kevincowens.dev</a>
+      </div>
+      <div class="nav-links">
+        <a href="/about/">About</a>
+        <a href="/blog/">Blog</a>
+        <div class="dropdown">
+          <span class="dropdown-btn">GitHub Repos ▾</span>
+          <div class="dropdown-content" id="repo-dropdown">
+            <!-- Filled dynamically by JS -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      © 2026 Kevin C. Owens — Built with Markdown + Monokai Pro
+    </footer>
+
+    <script>
+    fetch("https://api.github.com/users/kevincowens/repos")
+      .then(res => {
+        if (!res.ok) throw new Error("GitHub API error: " + res.status);
+        return res.json();
+      })
+      .then(data => {
+        const menu = document.getElementById("repo-dropdown");
+        data
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .forEach(repo => {
+            const item = document.createElement("a");
+            item.href = repo.html_url;
+            item.textContent = repo.name;
+            menu.appendChild(item);
+          });
+      })
+      .catch(() => {
+        const menu = document.getElementById("repo-dropdown");
+        const msg = document.createElement("span");
+        msg.textContent = "Repos unavailable";
+        msg.style.padding = "0.6rem 1rem";
+        msg.style.display = "block";
+        menu.appendChild(msg);
+      });
+    </script>
+
   </body>
 </html>
