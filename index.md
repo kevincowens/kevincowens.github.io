@@ -5,7 +5,7 @@ author: "Kevin C. Owens"
 
 # 👋 Hi, I'm Kevin
 
-**Cybersecurity | AI | Homelab Automation | USAF First Sergeant**
+**Cybersecurity | AI | Homelab Automation | USAF SNCO**
 
 I build secure, modular systems that blend **AI**, **automation**, and **real‑world operations**.
 This site documents my learning path, projects, and experiments as I transition from a 20‑year Air Force career into full‑time tech.
@@ -44,10 +44,6 @@ My current focus areas:
 ---
 
 ## 📝 Latest Blog Posts
-
-- **[Building My Local AI Workflow](/blog/building-local-ai-workflow/)** — April 10, 2026
-- **[Zero‑Trust for the Homelab](/blog/zero-trust-for-the-homelab/)** — April 15, 2026
-- **[Deploying n8n with Secure Boundaries](/blog/deploying-n8n-with-secure-boundaries/)** — April 20, 2026
 
 [→ All posts](/blog/)
 
