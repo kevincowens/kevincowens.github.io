@@ -27,4 +27,4 @@ Posts are written as I go: rough drafts of ideas that might become finished syst
 ## Connect
 
 - **GitHub:** [github.com/kevincowens](https://github.com/kevincowens)  
-- **LinkedIn:** *(coming soon)*
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/kevincowens/)
