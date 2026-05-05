@@ -4,11 +4,11 @@ title: "About"
 
 # About Me
 
-Hi, I'm **Kevin C. Owens** — a 20‑year USAF First Sergeant transitioning into a full-time career in cybersecurity and AI-driven automation.
+Hi, I'm **Kevin C. Owens** — a 20‑year USAF Senior Non-Commissioned Officer working towards transitioning into a full-time career in cybersecurity and AI-driven automation.
 
 ## Background
 
-I spent two decades in the United States Air Force, leading and developing people across high-tempo, high-stakes environments. That career gave me deep experience in operations management, team leadership, and mission-critical decision-making — skills I'm now applying directly to the tech world.
+I have spent two decades in the United States Air Force, leading and developing people across high-tempo, high-stakes environments. This career has given me deep experience in operations management, team leadership, and mission-critical decision-making — skills I plan to apply directly to the tech world.
 
 ## What I'm Building
 
